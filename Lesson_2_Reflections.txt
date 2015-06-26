@@ -5,3 +5,11 @@
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 - The staging area is like a stepping stone between the working directory and the repository. You're preparing to commit things here, and it allows to you to control what you commit.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+- Running git status shows the staging area. Running git diff shows the changes between the files in the staging area and the most recent commit. I just realized that last comment is irrelevant to the question, but it contains a command, so there. Git status shows the files in the staging area, so you can use this to make sure that only those files related to the logical change are ready to be committed.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+- Branches are helpful as they allow you to try more profound logical changes to your scripts without fear of rendering your script unusable. Branches also help since you can branch off from your master line, edit both the branch and the master, then merge them together at a later point.
