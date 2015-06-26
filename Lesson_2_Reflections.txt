@@ -13,3 +13,7 @@
 4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 - Branches are helpful as they allow you to try more profound logical changes to your scripts without fear of rendering your script unusable. Branches also help since you can branch off from your master line, edit both the branch and the master, then merge them together at a later point.
+
+5. How do the diagrams help you visualize the branch structure?
+
+- Diagrams help show where branches were made off the master, and help show which commits may be unreachable. They also visually represent the relation between the branches and master line.
