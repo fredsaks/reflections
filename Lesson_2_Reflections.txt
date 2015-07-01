@@ -21,3 +21,7 @@
 6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 - The result is a file where any changes either coder made are reflected in the file. I don't know what the diagram does.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+- Automatic is easy and makes changes for you when there is no conflict. Manual is better for when there are conflicts between the files and users actually have to sort them out.
