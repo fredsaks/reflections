@@ -17,3 +17,7 @@
 5. How do the diagrams help you visualize the branch structure?
 
 - Diagrams help show where branches were made off the master, and help show which commits may be unreachable. They also visually represent the relation between the branches and master line.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+- The result is a file where any changes either coder made are reflected in the file. I don't know what the diagram does.
